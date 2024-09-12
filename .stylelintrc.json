@@ -1,0 +1,14 @@
+{
+	"extends": [
+		"stylelint-config-standard-scss",
+		"stylelint-config-idiomatic-order",
+		"stylelint-config-prettier-scss"
+	],
+	"rules": {
+		"scss/at-import-no-partial-leading-underscore": null,
+		"scss/load-no-partial-leading-underscore": true,
+		"selector-class-pattern": null
+	},
+	"ignoreFiles": ["src/stories/**/*.css"],
+	"fix": true
+}

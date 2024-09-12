@@ -1,0 +1,17 @@
+node_modules
+dist
+coverage
+build
+package-lock.json
+.next
+.husky
+.gitignore
+.prettierignore
+.stylelintignore
+.eslintignore
+eslint.config.mjs
+**/*.png
+**/*.jpg
+**/*.svg
+**/*.ico
+**/*.xml
